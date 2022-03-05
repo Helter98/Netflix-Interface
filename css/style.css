@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #E50914;
+    --cor1: #FFFFFF;
+    --cor2: #333333;
+    --cor3: #737373;
+    --cor4: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0,0,0,.50)100%), url(../imgs/fundoNetflix.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+
+header #inicio{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+#container {
+    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0,0,0,.50)100%);
+    height: 900px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
