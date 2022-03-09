@@ -4,7 +4,7 @@
     --cor0: #E50914;
     --cor1: #FFFFFF;
     --cor2: #333333;
-    --cor3: #737373;
+    --cor3: #888888;
     --cor4: #000000;
 }
 
@@ -23,15 +23,58 @@ body {
 }
 
 header #inicio{
-    padding-left: 50px;
-    padding-top: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 #container {
-    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0,0,0,.50)100%);
-    height: 900px;
-    width: 600px;
-    margin: 0 auto 0 auto;
-    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0,0,0,.50)100%);
+    height: 700px;
+    width: 450px;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
     color: #FFFFFF;
 }
+
+#container h1 {
+    margin-left: 70px;
+    padding-top: 60px;
+}
+
+#container input, button {
+    margin-left: 70px;
+    margin-top: 27px;
+    margin-bottom: -11px;
+    background-color: var(--cor2);
+    height: 50px;
+    width: 313px;
+    
+    border: none;
+    border-radius: 3px;
+
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color:var(--cor3);
+}
+
+#btn-SignIn button{
+    background-color: #E50914;
+    font-size: 16px;
+    color: var(--cor1);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#btn-SignIn label {
+    margin-right: 20px;
+}
+
+input#checkbox{
+    width: 15px;
+    border: none;
+    background-color: #888888;
+}
+
