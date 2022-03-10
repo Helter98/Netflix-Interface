@@ -41,7 +41,7 @@ header #inicio{
     padding-top: 60px;
 }
 
-#container input, button {
+#container .email-Pass {
     margin-left: 70px;
     margin-top: 27px;
     margin-bottom: -11px;
@@ -60,21 +60,39 @@ header #inicio{
     color:var(--cor3);
 }
 
-#btn-SignIn button{
+#container button{
     background-color: #E50914;
+    height: 50px;
+    width: 313px;
     font-size: 16px;
     color: var(--cor1);
     font-weight: bold;
+    margin-left: 70px;
     margin-top: 50px;
+
+    border: none;
+    border-radius: 3px;
+
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    
 }
 
 #btn-SignIn label {
     margin-right: 20px;
 }
 
-input#checkbox{
-    width: 15px;
-    border: none;
-    background-color: #888888;
-}
+#custom-check input{
 
+}
+.custom-check input + label:before {
+    content: '';
+    width: 18px;
+    width: 18px;
+    border-radius: 4px;
+    background-color: #f70e0e;
+    display: inline-block;
+}
