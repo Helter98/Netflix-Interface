@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <!--Links Css-->
     <link rel="stylesheet" href="css/style-Netflix.css">
     <link rel="shortcut icon" href="imgs/Netflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a class="logoNetflix" href="#">
+            <a class="logoNetflix" href="#carrosel-filmes">
                 <img src="imgs/logoNetflix.png" width="170px"  alt="">
             </a>
             <nav>
@@ -25,25 +28,68 @@
     </header>
 
     <main>
-        <img src="imgs/logo-la-casa-de-papel.png" width="500px">
+        <div class="filme-principal">        
+            <div id="discricao">
+                <img src="imgs/logo-la-casa-de-papel.png" width="500px">
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        Play
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    <h1>Watch Part 3 Now</h1>
+                    <p>With millions of euros ans their lives on the line, nine robbers attempt to pull off the greatest heist od all time.</p>
+            </div>
+            </div>
         
-        <div class="botoes">
-            <button role="button" class="botao">
-                <img src="imgs/botao-play.png" width="20px" >
-                
-                <div class="int">ASSISTIR</div>
-            </button>
-            <button role="button" class="botao">
-                <img src="imgs/mais.png" width="20px" >
-                <i class="fa-solid fa-circle-info"></i>
-                <div class="int">MAIS INFORMAÇÕES</div>
-            </button>
         </div>
-   
-           
-        </div>
-        <p>with millions of euros ans their lives on the line, nine robbers attempt to pull off the greatest heist od all time.</p>
+
+        
     </main>
 
+  
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-1.jpg" style="width:300px" position: absolute; alt="">
+            </div>
+ 
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-2.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-3.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-4.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-5.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-6.jpg"  style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-7.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-8.jpg" style="width:300px" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-9.jpg" style="width:300px"alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imgs/movies/movie-10.jpg" style="width:300px" alt="" width="400px">
+            </div>
+        </div>
+
 </body>
+
+    <script src="https://kit.fontawesome.com/90dcae466e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </html>
