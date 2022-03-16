@@ -13,10 +13,10 @@
 }
 
 body {
-    background-color: var(--preta);
+    background-color: black;
 }
 header{
-    background:linear-gradient(rgba(39, 39, 39, 0.137), rgba(48, 48, 48, 0.103)100%);
+   
     position: fixed;
     width: 100%;
 }
@@ -32,6 +32,7 @@ header .container{
 header .logoNetflix{
     padding-left: 40px;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 header nav {
     margin-left: 40px;
@@ -72,6 +73,7 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
 
 
 }
@@ -123,7 +125,6 @@ header nav {
     margin-left: 40px;
     color: white;
     font-size: 20px;
-    
 }
 
 /*
@@ -138,23 +139,52 @@ header nav {
 }
 
 */
-.box-filme{
+
+#carrosel-filmes h1 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+#carrosel-filmes {
+    margin-top: -50px;
+}
+
+.box-backdrops {
     height: 100%;
     width: 100%;
     display: block;
+    transition: all .2s ease-in;
+    border: solid #000000  1px;
 
-}
-
-.item img {
-    border: solid black 5px;
-    transition: all 0.3s;
-    position:relative ;
 }
 
 .item img:hover {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-  
+    transform: scale(1.13);
+}
+
+#carrosel-series {
+    margin-top: -180px;
+}
+
+#carrosel-series h1 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+#carrosel-documentarios{
+    margin-top: -180px;
+}
+
+#carrosel-documentarios h1 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
 }
 
 
